@@ -1,0 +1,606 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f0a5a5;
+    color: #fdf7f7;
+  }
+  
+  
+  header {
+    background-color: #f7bebe;
+    padding: 20px;
+    display: grid;
+    margin-right: 20px; 
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  /*.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+  }*/
+
+  h1 {
+    color: #49093b;
+    margin: 0;
+    display: grid;
+    text-align: center;
+  
+}
+    
+  
+  
+  .section {
+    background-color:#f3d8d8;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+
+  .section ul {
+    padding-inline-start: 20px;
+
+  }
+
+  
+  .section h2 {
+    border-bottom: 1px solid #da3357;
+    padding-bottom: 10px;
+    color: #49093b;
+  }
+  
+  .section p {
+    line-height: 1.5;
+    color: #49093b;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #da3357;
+  }
+  
+  a {
+    color: #da3357;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    background-color:  #f3d8d8;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+
+  
+ 
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+
+/*Contacto */
+
+.body-2 {
+    background-color: #f0a5a5;
+}
+  form {
+    max-width: 600px;
+    margin: 170px auto;
+    margin-top: 130px;
+    padding: 45px;
+    background-color: #f3d8d8;
+    color:#49093b;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0c0000;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #8d8989;
+    color: #0e0101;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #286090;
+  }
+  
+
+
+
+  /* QUIEN SOY */
+  .body-3{
+    background-color: #f0a5a5;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+
+  .section-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+
+  .quien_soy {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f3d8d8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+  }
+  
+
+  .quien_soy img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .quien_soy h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #da3357;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
+  .quien_soy p {
+    color: #49093b;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .que-me-motiva {
+    background-color: #f3d8d8;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+    
+  }
+  
+  .que-me-motiva h2 {
+    border-bottom: 1px solid #da3357;
+    padding-bottom: 10px;
+    margin-top: 0;
+    color: #49093b;
+  }
+  
+  .que-me-motiva p {
+    line-height: 1.5;
+    color: #49093b;
+    margin-bottom: 0;
+  }
+  
+
+  /* LOCAL */
+  .body-4{
+    background-color: #f0a5a5;
+  }
+
+
+  .local {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f7bebe;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .local img {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .local h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #da3357;
+  }
+
+  .texto1 {
+    color: #49093b;
+  }
+  
+  .local p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+
+/* MASAJES */
+
+.body-5 {
+    background-color: #f0a5a5;
+}
+
+.tipos-masajes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tipo-masaje {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    color: #ccc;
+    background-color: #f7bebe;
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+  .tipo-masaje img {
+    float: left;
+    margin-right: 20px;
+    height: 155px;
+    object-fit: cover;
+    background-color: #333;
+  }
+
+  .tipo-masaje h2 {
+    margin-top: 0;
+    color: #da3357;
+    font-size: 31.5px;
+  }
+
+  .tipo-masaje p {
+    margin-bottom: 10px;
+    color: #49093b;
+    font-size: 18.3px;
+  }
+  .navbar-titulo--masajes h1{
+    margin-left: 600px;
+  }
+ 
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+/*.navbar-brand img{
+  width: 30px;
+
+}*/
+.navbar-nav{
+  color: #da3357;
+  gap: 400px;
+}
+
+.nav-link{
+  color: #da3357;
+  gap: 500px;
+}
+
+.tipo-masaje-link:hover {
+  color: #e9022c; 
+}
+.tipo-masaje-link:focus{
+  color: #da3357;
+}
+
+.dropdown-menu{
+  background-color:#f7bebe;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+
+.dropdown-item{
+  color:#da3357;
+}
+
+.dropdown-item:hover{
+  background-color: #f7bebe;
+}
+
+.navbar-left{
+  vertical-align: middle;
+  display: grid;
+}
+
+.navbar-mayor{
+  display: flex;
+  position: relative;
+  background-color: #f0a5a5;
+  /*margin-right: 200px;*/
+  
+}
+
+.navbar-titulo{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-left: 440px;
+}
+
+.navbar-logo img{
+  width: 90px; 
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+
+  .section-container {
+    flex-direction: row;
+  }
+
+  .quien_soy,
+  .que-me-motiva {
+    max-width: 50%;
+    margin-right: 20px;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .navbar-toggler{
+    order: 2;
+    margin-left: auto;
+    background-color: whitesmoke;
+    border: none;
+    padding: 0;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #da3357;
+    border-radius: 30%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    
+  }
+  .navbar-nav {
+  
+    flex-direction: column;
+    align-items: flex-start;
+    /*background-color: #f7bebe;*/
+    
+  }
+  
+  .nav-item {
+    margin: 5px 0; 
+  }
+  
+  .navbar-collapse {
+    flex-direction: column; 
+    order: 3;
+   /* background-color: #f7bebe;*/
+    padding: 10px;
+  }
+  .section-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .quien_soy,
+  .que-me-motiva {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+
+
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 20px;
+  }
+  .navbar-nav {
+    color: #da3357;
+    gap: 0px;
+  }
+  .navbar-toggler{
+    order: 2;
+    margin-left: auto;
+    background-color: whitesmoke;
+    border: none;
+    padding: 0;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #da3357;
+    border-radius: 30%;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    
+  }
+  .navbar-nav {
+  
+    flex-direction: column;
+    align-items: flex-start;
+    /*background-color: #f7bebe;*/
+    
+  }
+  
+  .nav-item {
+    margin: 5px 0; 
+  }
+  
+  .navbar-collapse {
+    flex-direction: column; 
+    order: 3;
+   /* background-color: #f7bebe;*/
+    padding: 10px;
+  }
+  .section-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .quien_soy,
+  .que-me-motiva {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.navbar-nav {
+  color: #da3357;
+  gap: 0px;
+}
+  .navbar-titulo {
+    margin-left: 0;
+    text-align: center;
+}
+.navbar-logo img{
+  margin-right: 10px;
+}
+header{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navbar-toggler{
+  order: 2;
+  margin-left: auto;
+  background-color: whitesmoke;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #da3357;
+  border-radius: 30%;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  
+}
+
+.navbar-nav {
+  
+  flex-direction: column;
+  align-items: flex-start;
+  /*background-color: #f7bebe;*/
+  
+}
+
+.nav-item {
+  margin: 5px 0; 
+}
+
+.navbar-collapse {
+  flex-direction: column; 
+  order: 3;
+ /* background-color: #f7bebe;*/
+  padding: 10px;
+}
+
+  .section,
+  .quien_soy,
+  .local,
+  .tipo-masaje {
+    margin: 10px;
+    padding: 10px;
+}
+
+  .tipo-masaje img {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+}
+.section-container {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quien_soy,
+.que-me-motiva {
+  max-width: 100%;
+  margin-right: 0;
+}
+
+}
