@@ -9,18 +9,55 @@
   <title>Contacto - Centro de Masajes</title>
 </head>
 <body class="body-2">
-  <h1>Contacto</h1>
-  <header class="header-2">
-  <nav>
-    <ul>
-      <li><a href="../index.html">Inicio</a></li>
-      <li><a href="quien_soy.html">Quien soy</a></li>
-      <li><a href="local.html">Local</a></li>
-      <li><a href="masajes.html">Masajes</a></li>
-    </ul>
+  <nav class="navbar-mayor">
+    <div class="navbar-left">
+      <a class="navbar-logo" href="../index.html">
+        <img src="../Imagenes/logito.jpg" alt="logo">
+      </a>
+    </div>
+    <div class="navbar-titulo--contacto">
+    <h1>¡Contactanos!</h1>
+  </div>
   </nav>
-  </header>
-
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/quien_soy.html">Quien soy</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle tipo-masaje-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tipo de Masaje
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../paginas/masajes.html">Masaje Relajante</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../paginas/masajes.html">Masaje Terapéutico</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../paginas/masajes.html">Masaje Deportivo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../paginas/masajes.html">Masaje de Tejido profundo</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../paginas/masajes.html">Masaje Tailandés</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/local.html">Local</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
   <form action="enviar.php" method="POST">
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre" required>
