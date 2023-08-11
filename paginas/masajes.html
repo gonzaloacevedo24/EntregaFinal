@@ -75,39 +75,54 @@
   <div class="tipos-masajes-texto">
     <h2>Ofrecemos estos tipos de masajes</h2>
 
-    <div class="tipos-masajes">
-      <div class="tipo-masaje">
-        <img src="../Imagenes/masaje1.jpg" alt="Masaje 1">
-        <h2>Masaje Relajante</h2>
-        <p>Disfruta de un masaje suave y envolvente que te ayudará a aliviar el estrés y la tensión acumulados. Nuestros terapeutas expertos utilizarán movimientos fluidos y técnicas de relajación para brindarte una experiencia de bienestar total.</p>
+    <div id="masajesCarrusel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="tipo-masaje">
+            <img src="../Imagenes/masaje1.jpg" alt="Masaje Relajante">
+            <h2>Masaje Relajante</h2>
+            <p>Disfruta de un masaje suave y envolvente que te ayudará a aliviar el estrés y la tensión acumulados.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="tipo-masaje">
+            <img src="../Imagenes/masaje2.jpg" alt="Masaje Terapéutico">
+            <h2>Masaje Terapéutico</h2>
+            <p>Este masaje se enfoca en aliviar dolores musculares y tensiones específicas.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="tipo-masaje">
+            <img src="../Imagenes/masaje3.jpg" alt="Masaje Deportivo">
+            <h2>Masaje Deportivo</h2>
+            <p>Perfecto para atletas y personas activas, este masaje ayuda a prevenir lesiones y mejorar el rendimiento.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="tipo-masaje">
+            <img src="../Imagenes/masaje4.jpg" alt="Masaje de Tejido Profundo">
+            <h2>Masaje de Tejido Profundo</h2>
+            <p>Este masaje utiliza técnicas intensas y presión profunda para aliviar tensiones crónicas.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="tipo-masaje">
+            <img src="../Imagenes/masaje5.jpg" alt="Masaje Tailandés">
+            <h2>Masaje Tailandés</h2>
+            <p>El masaje tailandés combina estiramientos y movimientos de yoga para liberar la energía bloqueada.</p>
+          </div>
+        </div>
       </div>
-
-      <div class="tipo-masaje">
-        <img src="../Imagenes/masaje2.jpg" alt="Masaje 2">
-        <h2>Masaje Terapéutico</h2>
-        <p>Este masaje se enfoca en aliviar dolores musculares y tensiones específicas. Nuestros terapeutas aplicarán técnicas especializadas para trabajar en áreas problemáticas y ayudarte a recuperar la movilidad y el equilibrio.</p>
-      </div>
-
-      <div class="tipo-masaje">
-        <img src="../Imagenes/masaje3.jpg" alt="Masaje 3">
-        <h2>Masaje Deportivo</h2>
-        <p>Perfecto para atletas y personas activas, este masaje ayuda a prevenir lesiones, mejorar el rendimiento y acelerar la recuperación muscular. Nuestros terapeutas utilizarán técnicas específicas para trabajar en los músculos utilizados durante la actividad física.</p>
-      </div>
-    
-      <div class="tipo-masaje tejido-profundo">
-        <img src="../Imagenes/masaje4.jpg" alt="Masaje de tejido profundo">
-        <h2>Masaje de Tejido Profundo</h2>
-        <p>Este masaje utiliza técnicas intensas y presión profunda para trabajar en capas más profundas de tejido muscular. Ideal para aliviar tensiones crónicas y contracturas musculares.</p>
-      </div>
-    
-      <div class="tipo-masaje masaje-tailandes">
-        <img src="../Imagenes/masaje5.jpg" alt="Masaje tailandés">
-        <h2>Masaje Tailandés</h2>
-        <p>El masaje tailandés combina estiramientos, presiones y movimientos de yoga para liberar la energía bloqueada y promover la relajación y flexibilidad.</p>
-      </div>
-
-    </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#masajesCarrusel" data-bs-slide="prev" data-bs-interval="false">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#masajesCarrusel" data-bs-slide="next" data-bs-interval="false">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
   </div>
+</div>
 
   <footer>
     <p>Todos los derechos reservados. Centro de Masajes &copy; 2023</p>
